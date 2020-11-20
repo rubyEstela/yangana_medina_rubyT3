@@ -45,6 +45,8 @@ java fx  (scene builder)
 
 #DOCUMENTS
 
+
+
 YANGANA _MEDINA.pdf
 
 #Author:
@@ -52,6 +54,7 @@ YANGANA _MEDINA.pdf
 RUBY ESTELA YANGANA MEDINA
 ESTUDIANTE DE INGENIERIA DE SISTEMAS 
 UNIVERSIDAD ICESI
+santiago de cali
 
 
 
