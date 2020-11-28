@@ -21,4 +21,10 @@ public class User {
 		this.name = name;
 	}
 
+
+	public int compareTo(User toInsert) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

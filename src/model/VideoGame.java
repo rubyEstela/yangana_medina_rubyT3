@@ -104,6 +104,28 @@ public class VideoGame  implements Serializable{
 		return name;
 	}
 	
+
+	/**
+	 * Method that orders an arrangement according to the points of the objects in it 
+	 * @return ArrayList sorted according to user points
+	 */
+	public ArrayList<User> orderPoint() {
+		ArrayList<User> users=arrayUser();
+		for(int i=1;i<users.size();i++) {
+			User toInsert=(User)users.get(i);
+			boolean finished=false;
+			for(int j=i;j>0 && !finished;j--) {
+				User current=(User)users.get(j-1);
+				if(current.compareTo(toInsert)>0) {
+					users.set(j, current);
+					users.set(j-1, toInsert);
+				}else {
+					finished=true;
+				}
+			}
+		}
+		return users;
+	}
 	
 
 	private ArrayList<User> arrayUser() {
