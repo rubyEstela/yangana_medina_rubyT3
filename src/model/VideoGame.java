@@ -49,6 +49,10 @@ public class VideoGame  implements Serializable{
 		}
 	}
 	
+	public void metoPrueba() {
+		System.out.print("hola mundo");
+	}
+	
 	public EnemyList getList() {
 		return list;
 	}
