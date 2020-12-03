@@ -3,6 +3,9 @@ Welcome to the project of the game of chicken invaders.
 yangana_medina_ruby_T3
 #Title of the project:
 
+VIDEO  EXPLANATORY OF THE PROJECT
+https://www.youtube.com/watch?v=SLkXfXBJ4Dw&feature=youtu.be
+
 Chicken invaders
 
 The next project is called chicken invaders, it consists of the creation of a game that allows to eliminate all the enemy chichen that appear on the screen, the main player is in charge of shooting by pressing the space bar, he can choose the ship that has different shots , these move from right to left in the lower part of the interface, while the birds are falling from the "sky". The moment one of them touches the ship or the floor, the player loses the game, otherwise if the player does not let any of them touch him or fall to the ground and he has a score of 100 points, the The player will pass the level, making his enemies, that is, the birds, change and become faster. At the time of registration, the user must enter a code or id that characterizes him, a name, his age and gender, in order to start the game and that these are saved in the game. Once the game is saved, the user will be able to sort and search based on the available criteria.
